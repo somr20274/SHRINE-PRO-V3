@@ -127,6 +127,7 @@
         "image_slide_Meny4R": {
           "type": "image_slide",
           "settings": {
+            "image": "shopify://shop_images/M6.png",
             "link": "",
             "description": "",
             "desc_alignment": "center",
