@@ -491,26 +491,6 @@
         "custom_colors_text": "#121212"
       }
     },
-    "video_7mnFKi": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "title": "",
-        "title_highlight_color": "#6d388b",
-        "heading_size": "h1",
-        "video_url": "",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#121212"
-      }
-    },
     "featured_product_FJxrtq": {
       "type": "featured-product",
       "blocks": {
@@ -765,7 +745,6 @@
     "slideshow_98jXAA",
     "rich_text_zGbgi8",
     "image_slider_yUfNgU",
-    "video_7mnFKi",
     "featured_product_FJxrtq",
     "contact_form_WHP8G7"
   ]
