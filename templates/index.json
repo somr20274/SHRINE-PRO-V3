@@ -423,6 +423,74 @@
         "custom_colors_outline_button": "#dd1d1d"
       }
     },
+    "image_slider_yUfNgU": {
+      "type": "image-slider",
+      "blocks": {
+        "video_slide_kf4qhw": {
+          "type": "video_slide",
+          "settings": {
+            "video": "shopify://files/videos/796298a8a6194e2d8627e158efa800d2.mp4",
+            "loop": true,
+            "muted_autoplay": true,
+            "display_play_btn": true,
+            "btn_animation": false,
+            "btn_color_scheme": "accent-1",
+            "display_sound_btn": false,
+            "sound_btn_color_scheme": "inverse",
+            "display_timeline": false,
+            "timeline_color": "accent-1",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        }
+      },
+      "block_order": [
+        "video_slide_kf4qhw"
+      ],
+      "name": "Image/Video Slider",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Notre Tapis en action",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "type": "slide",
+        "drag": "enabled",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "center_mode": false,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "desktop_border_radius": 0,
+        "slides_desktop": 3,
+        "per_move_desktop": 1,
+        "desktop_spacing": 28,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "mobile_full_page": false,
+        "mobile_border_radius": 8,
+        "slides_mobile": 1,
+        "per_move_mobile": 1,
+        "mobile_spacing": 0,
+        "mobile_side_padding": 0,
+        "mobile_padding_calc": true,
+        "mobile_adaptive_height": true,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "hidden",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
     "video_7mnFKi": {
       "type": "video",
       "name": "t:sections.video.presets.name",
@@ -432,7 +500,7 @@
         "title": "",
         "title_highlight_color": "#6d388b",
         "heading_size": "h1",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_url": "",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -696,6 +764,7 @@
     "rich_text_dCyzXL",
     "slideshow_98jXAA",
     "rich_text_zGbgi8",
+    "image_slider_yUfNgU",
     "video_7mnFKi",
     "featured_product_FJxrtq",
     "contact_form_WHP8G7"
