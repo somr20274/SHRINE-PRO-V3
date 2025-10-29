@@ -1,5 +1,9 @@
 /* FIX GALERIE PRODUIT SHRINE - Miniatures visibles */
 
+/* ========================================
+   PAGE PRODUIT STANDARD
+   ======================================== */
+
 /* Container des miniatures */
 .product__media-list,
 .thumbnail-list {
@@ -81,5 +85,94 @@
   .product__media-list,
   .thumbnail-list {
     gap: 6px;
+  }
+}
+
+/* ========================================
+   SECTION PRODUIT EN VEDETTE - PAGE D'ACCUEIL
+   ======================================== */
+
+/* Force l'affichage sur TOUTES les sections produit (y compris page d'accueil) */
+.shopify-section .product__media-list,
+.featured-product .product__media-list,
+[id*="featured"] .product__media-list,
+.template-index .product__media-list {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+  opacity: 1 !important;
+  visibility: visible !important;
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+/* Miniatures dans section produit en vedette */
+.shopify-section .product__media-item,
+.featured-product .product__media-item,
+[id*="featured"] .product__media-item,
+.template-index .product__media-item {
+  width: calc(25% - 8px) !important;
+  min-width: 70px;
+  max-width: 100px;
+  height: 90px;
+  cursor: pointer;
+  border: 2px solid #e5e5e5;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  position: relative !important;
+}
+
+/* Hover page d'accueil */
+.shopify-section .product__media-item:hover,
+.featured-product .product__media-item:hover {
+  border-color: #333;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Active page d'accueil */
+.shopify-section .product__media-item.is-active,
+.featured-product .product__media-item.is-active,
+.shopify-section .product__media-item[aria-current="true"] {
+  border-color: #000;
+  border-width: 3px;
+}
+
+/* Images page d'accueil */
+.shopify-section .product__media-item img,
+.featured-product .product__media-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Force hidden items */
+.shopify-section .product__media-item[hidden],
+.featured-product .product__media-item[hidden] {
+  display: block !important;
+  visibility: visible !important;
+}
+
+/* Mobile page d'accueil */
+@media screen and (max-width: 768px) {
+  .shopify-section .product__media-item,
+  .featured-product .product__media-item {
+    width: calc(33.333% - 8px) !important;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .shopify-section .product__media-item,
+  .featured-product .product__media-item {
+    width: calc(25% - 6px) !important;
+    height: 70px;
   }
 }
