@@ -1,0 +1,85 @@
+/* FIX GALERIE PRODUIT SHRINE - Miniatures visibles */
+
+/* Container des miniatures */
+.product__media-list,
+.thumbnail-list {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+  opacity: 1 !important;
+  visibility: visible !important;
+  height: auto !important;
+}
+
+/* Chaque miniature */
+.product__media-list .product__media-item,
+.thumbnail-list__item {
+  width: calc(25% - 8px) !important;
+  min-width: 70px;
+  max-width: 100px;
+  height: 90px;
+  cursor: pointer;
+  border: 2px solid #e5e5e5;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Hover sur miniatures */
+.product__media-list .product__media-item:hover,
+.thumbnail-list__item:hover {
+  border-color: #333;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Miniature active */
+.product__media-list .product__media-item.is-active,
+.thumbnail-list__item.is-active,
+.product__media-list .product__media-item[aria-current="true"] {
+  border-color: #000;
+  border-width: 3px;
+}
+
+/* Images dans les miniatures */
+.product__media-list .product__media-item img,
+.thumbnail-list__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Force l'affichage des médias cachés */
+.product__media-item[hidden],
+.media--hidden {
+  display: block !important;
+  visibility: visible !important;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 768px) {
+  .product__media-list .product__media-item,
+  .thumbnail-list__item {
+    width: calc(33.333% - 8px) !important;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .product__media-list .product__media-item,
+  .thumbnail-list__item {
+    width: calc(25% - 6px) !important;
+    height: 70px;
+    min-width: 60px;
+  }
+  
+  .product__media-list,
+  .thumbnail-list {
+    gap: 6px;
+  }
+}
