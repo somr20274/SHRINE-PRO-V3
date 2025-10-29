@@ -36,7 +36,7 @@
     "badge_position": "bottom left",
     "badge_corner_radius": 6,
     "sale_badge_color_scheme": "accent-2",
-    "sale_badge_text": "SAVE [percentage]",
+    "sale_badge_text": "Économisez [percentage]",
     "sold_out_badge_color_scheme": "inverse",
     "slider_arrow_size": 30,
     "accent_icons": "text",
