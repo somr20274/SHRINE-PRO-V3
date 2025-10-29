@@ -192,10 +192,23 @@
             "title_highlight_color": "#6d388b",
             "heading_size": "h1"
           }
+        },
+        "trustpilot_stars_8L9mAW": {
+          "type": "trustpilot_stars",
+          "settings": {
+            "rating": 5,
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "label": "(1092 Avis)",
+            "size": 16,
+            "scroll_id": ""
+          }
         }
       },
       "block_order": [
-        "heading_eJfge4"
+        "heading_eJfge4",
+        "trustpilot_stars_8L9mAW"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
