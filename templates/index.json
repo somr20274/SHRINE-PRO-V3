@@ -665,6 +665,7 @@
         "quantity_selector_DXPaAj",
         "buy_buttons_bJkdmd"
       ],
+      "custom_css": [],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
         "display_id": false,
