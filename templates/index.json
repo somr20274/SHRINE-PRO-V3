@@ -403,39 +403,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "rich_text_zGbgi8": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_8W3m6P": {
-          "type": "heading",
-          "settings": {
-            "title": "Notre produit en action",
-            "title_highlight_color": "#6d388b",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_8W3m6P"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d"
-      }
-    },
     "image_slider_yUfNgU": {
       "type": "image-slider",
       "blocks": {
@@ -756,7 +723,6 @@
     "image_slider_iPJmHc",
     "rich_text_dCyzXL",
     "slideshow_98jXAA",
-    "rich_text_zGbgi8",
     "image_slider_yUfNgU",
     "featured_product_FJxrtq",
     "contact_form_WHP8G7"
