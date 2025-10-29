@@ -95,7 +95,7 @@
           "type": "heading",
           "settings": {
             "title": "Ils en parlent",
-            "title_highlight_color": "#6D388B",
+            "title_highlight_color": "#6d388b",
             "heading_size": "h1"
           }
         }
@@ -113,9 +113,9 @@
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
+        "custom_colors_text": "#2e2a39",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d"
@@ -173,7 +173,7 @@
         "display_id": false,
         "visibility": "always-display",
         "title": "",
-        "title_highlight_color": "#6D388B",
+        "title_highlight_color": "#6d388b",
         "heading_size": "h1",
         "color_scheme": "background-1",
         "type": "loop",
@@ -206,7 +206,7 @@
         "mobile_arrows_position": "hidden",
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
         "custom_colors_text": "#121212"
       }
@@ -218,7 +218,7 @@
           "type": "heading",
           "settings": {
             "title": "Ils en sont fans !",
-            "title_highlight_color": "#6D388B",
+            "title_highlight_color": "#6d388b",
             "heading_size": "h1"
           }
         }
@@ -236,9 +236,9 @@
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
+        "custom_colors_text": "#2e2a39",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d"
@@ -252,7 +252,7 @@
           "settings": {
             "image_overlay_opacity": 0,
             "heading": "Image slide",
-            "title_highlight_color": "#6D388B",
+            "title_highlight_color": "#6d388b",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
             "button_label": "Button label",
@@ -267,9 +267,9 @@
             "color_scheme": "background-1",
             "transparent_container_color": "white",
             "text_alignment_mobile": "center",
-            "custom_colors_background": "#FFFFFF",
+            "custom_colors_background": "#ffffff",
             "custom_gradient_background": "",
-            "custom_colors_text": "#2E2A39",
+            "custom_colors_text": "#2e2a39",
             "custom_colors_solid_button_background": "#dd1d1d",
             "custom_colors_solid_button_text": "#ffffff",
             "custom_colors_outline_button": "#dd1d1d"
@@ -280,7 +280,7 @@
           "settings": {
             "image_overlay_opacity": 0,
             "heading": "Image slide",
-            "title_highlight_color": "#6D388B",
+            "title_highlight_color": "#6d388b",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
             "button_label": "Button label",
@@ -295,9 +295,9 @@
             "color_scheme": "background-1",
             "transparent_container_color": "white",
             "text_alignment_mobile": "center",
-            "custom_colors_background": "#FFFFFF",
+            "custom_colors_background": "#ffffff",
             "custom_gradient_background": "",
-            "custom_colors_text": "#2E2A39",
+            "custom_colors_text": "#2e2a39",
             "custom_colors_solid_button_background": "#dd1d1d",
             "custom_colors_solid_button_text": "#ffffff",
             "custom_colors_outline_button": "#dd1d1d"
@@ -308,7 +308,7 @@
           "settings": {
             "image_overlay_opacity": 0,
             "heading": "Image slide",
-            "title_highlight_color": "#6D388B",
+            "title_highlight_color": "#6d388b",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
             "button_label": "Button label",
@@ -323,9 +323,9 @@
             "color_scheme": "background-1",
             "transparent_container_color": "white",
             "text_alignment_mobile": "center",
-            "custom_colors_background": "#FFFFFF",
+            "custom_colors_background": "#ffffff",
             "custom_gradient_background": "",
-            "custom_colors_text": "#2E2A39",
+            "custom_colors_text": "#2e2a39",
             "custom_colors_solid_button_background": "#dd1d1d",
             "custom_colors_solid_button_text": "#ffffff",
             "custom_colors_outline_button": "#dd1d1d"
@@ -336,7 +336,7 @@
           "settings": {
             "image_overlay_opacity": 0,
             "heading": "Image slide",
-            "title_highlight_color": "#6D388B",
+            "title_highlight_color": "#6d388b",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
             "button_label": "Button label",
@@ -351,9 +351,9 @@
             "color_scheme": "background-1",
             "transparent_container_color": "white",
             "text_alignment_mobile": "center",
-            "custom_colors_background": "#FFFFFF",
+            "custom_colors_background": "#ffffff",
             "custom_gradient_background": "",
-            "custom_colors_text": "#2E2A39",
+            "custom_colors_text": "#2e2a39",
             "custom_colors_solid_button_background": "#dd1d1d",
             "custom_colors_solid_button_text": "#ffffff",
             "custom_colors_outline_button": "#dd1d1d"
@@ -364,7 +364,7 @@
           "settings": {
             "image_overlay_opacity": 0,
             "heading": "Image slide",
-            "title_highlight_color": "#6D388B",
+            "title_highlight_color": "#6d388b",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
             "button_label": "Button label",
@@ -379,9 +379,9 @@
             "color_scheme": "background-1",
             "transparent_container_color": "white",
             "text_alignment_mobile": "center",
-            "custom_colors_background": "#FFFFFF",
+            "custom_colors_background": "#ffffff",
             "custom_gradient_background": "",
-            "custom_colors_text": "#2E2A39",
+            "custom_colors_text": "#2e2a39",
             "custom_colors_solid_button_background": "#dd1d1d",
             "custom_colors_solid_button_text": "#ffffff",
             "custom_colors_outline_button": "#dd1d1d"
@@ -416,7 +416,7 @@
           "type": "heading",
           "settings": {
             "title": "Notre produit en action",
-            "title_highlight_color": "#6D388B",
+            "title_highlight_color": "#6d388b",
             "heading_size": "h1"
           }
         }
@@ -434,9 +434,9 @@
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
+        "custom_colors_text": "#2e2a39",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d"
@@ -449,7 +449,7 @@
         "display_id": false,
         "visibility": "always-display",
         "title": "",
-        "title_highlight_color": "#6D388B",
+        "title_highlight_color": "#6d388b",
         "heading_size": "h1",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
@@ -457,7 +457,7 @@
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
         "custom_colors_text": "#121212"
       }
@@ -612,7 +612,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "product": "",
+        "product": "tapis-hyperpad",
         "color_scheme": "background-1",
         "secondary_background": false,
         "media_size": "medium",
