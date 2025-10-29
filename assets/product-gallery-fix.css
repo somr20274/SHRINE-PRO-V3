@@ -1,102 +1,26 @@
-/* FIX GALERIE PRODUIT SHRINE - Miniatures visibles */
+/* FIX GALERIE PRODUIT SHRINE - Afficher TOUTES les miniatures */
 
 /* ========================================
-   PAGE PRODUIT STANDARD
+   IMAGE PRINCIPALE - Ne pas toucher
+   ======================================== */
+
+.product__media-wrapper > .product__media,
+.product__media-wrapper > slider-component,
+.product__media-wrapper > .slider {
+  display: block !important;
+  width: 100%;
+  height: auto;
+}
+
+/* ========================================
+   MINIATURES - Afficher en bas
    ======================================== */
 
 /* Container des miniatures */
 .product__media-list,
-.thumbnail-list {
-  display: flex !important;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 15px;
-  opacity: 1 !important;
-  visibility: visible !important;
-  height: auto !important;
-}
-
-/* Chaque miniature */
-.product__media-list .product__media-item,
-.thumbnail-list__item {
-  width: calc(25% - 8px) !important;
-  min-width: 70px;
-  max-width: 100px;
-  height: 90px;
-  cursor: pointer;
-  border: 2px solid #e5e5e5;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: all 0.3s ease;
-  display: block !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-}
-
-/* Hover sur miniatures */
-.product__media-list .product__media-item:hover,
-.thumbnail-list__item:hover {
-  border-color: #333;
-  transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-/* Miniature active */
-.product__media-list .product__media-item.is-active,
-.thumbnail-list__item.is-active,
-.product__media-list .product__media-item[aria-current="true"] {
-  border-color: #000;
-  border-width: 3px;
-}
-
-/* Images dans les miniatures */
-.product__media-list .product__media-item img,
-.thumbnail-list__item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-/* Force l'affichage des médias cachés */
-.product__media-item[hidden],
-.media--hidden {
-  display: block !important;
-  visibility: visible !important;
-}
-
-/* Mobile responsive */
-@media screen and (max-width: 768px) {
-  .product__media-list .product__media-item,
-  .thumbnail-list__item {
-    width: calc(33.333% - 8px) !important;
-    height: 80px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .product__media-list .product__media-item,
-  .thumbnail-list__item {
-    width: calc(25% - 6px) !important;
-    height: 70px;
-    min-width: 60px;
-  }
-  
-  .product__media-list,
-  .thumbnail-list {
-    gap: 6px;
-  }
-}
-
-/* ========================================
-   SECTION PRODUIT EN VEDETTE - PAGE D'ACCUEIL
-   ======================================== */
-
-/* Force l'affichage sur TOUTES les sections produit (y compris page d'accueil) */
-.shopify-section .product__media-list,
-.featured-product .product__media-list,
-[id*="featured"] .product__media-list,
-.template-index .product__media-list {
+.thumbnail-list,
+slider-component .slider--mobile,
+.product__media-thumbnails {
   display: flex !important;
   flex-wrap: wrap;
   gap: 10px;
@@ -108,12 +32,12 @@
   overflow: visible !important;
 }
 
-/* Miniatures dans section produit en vedette */
-.shopify-section .product__media-item,
-.featured-product .product__media-item,
-[id*="featured"] .product__media-item,
-.template-index .product__media-item {
-  width: calc(25% - 8px) !important;
+/* Forcer l'affichage de TOUTES les miniatures (pas seulement variantes) */
+.product__media-list > li,
+.product__media-list > .product__media-item,
+.thumbnail-list > li,
+.thumbnail-list__item {
+  width: calc(20% - 8px) !important; /* 5 miniatures par ligne */
   min-width: 70px;
   max-width: 100px;
   height: 90px;
@@ -128,51 +52,98 @@
   position: relative !important;
 }
 
-/* Hover page d'accueil */
-.shopify-section .product__media-item:hover,
-.featured-product .product__media-item:hover {
+/* Hover sur miniatures */
+.product__media-list > li:hover,
+.product__media-item:hover,
+.thumbnail-list__item:hover {
   border-color: #333;
   transform: scale(1.05);
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-/* Active page d'accueil */
-.shopify-section .product__media-item.is-active,
-.featured-product .product__media-item.is-active,
-.shopify-section .product__media-item[aria-current="true"] {
+/* Miniature active */
+.product__media-list > li.is-active,
+.product__media-item.is-active,
+.thumbnail-list__item.is-active,
+.product__media-item[aria-current="true"] {
   border-color: #000;
   border-width: 3px;
 }
 
-/* Images page d'accueil */
-.shopify-section .product__media-item img,
-.featured-product .product__media-item img {
+/* Images dans les miniatures */
+.product__media-list img,
+.thumbnail-list__item img,
+.product__media-item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
 
-/* Force hidden items */
-.shopify-section .product__media-item[hidden],
-.featured-product .product__media-item[hidden] {
+/* Boutons dans les miniatures (loupe/play) */
+.product__media-list button,
+.thumbnail-list__item button {
+  pointer-events: none;
+}
+
+/* Force l'affichage des médias cachés */
+.product__media-item[hidden],
+.media--hidden,
+.product__media-list > li[hidden] {
   display: block !important;
   visibility: visible !important;
 }
 
-/* Mobile page d'accueil */
-@media screen and (max-width: 768px) {
-  .shopify-section .product__media-item,
-  .featured-product .product__media-item {
-    width: calc(33.333% - 8px) !important;
+/* ========================================
+   MOBILE RESPONSIVE
+   ======================================== */
+
+@media screen and (max-width: 989px) {
+  .product__media-list > li,
+  .product__media-item,
+  .thumbnail-list__item {
+    width: calc(25% - 8px) !important; /* 4 par ligne sur tablette */
     height: 80px;
   }
 }
 
-@media screen and (max-width: 480px) {
-  .shopify-section .product__media-item,
-  .featured-product .product__media-item {
-    width: calc(25% - 6px) !important;
+@media screen and (max-width: 749px) {
+  .product__media-list > li,
+  .product__media-item,
+  .thumbnail-list__item {
+    width: calc(20% - 6px) !important; /* 5 par ligne sur mobile */
     height: 70px;
+    min-width: 60px;
   }
+  
+  .product__media-list,
+  .thumbnail-list {
+    gap: 6px;
+  }
+}
+
+/* ========================================
+   SECTION PRODUIT EN VEDETTE (PAGE D'ACCUEIL)
+   ======================================== */
+
+/* Même style pour page d'accueil */
+.index-section .product__media-list,
+.featured-product .product__media-list,
+.shopify-section .product__media-list {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.index-section .product__media-list > li,
+.featured-product .product__media-item,
+.shopify-section .product__media-item {
+  width: calc(20% - 8px) !important;
+  min-width: 70px;
+  max-width: 100px;
+  height: 90px;
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
