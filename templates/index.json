@@ -533,7 +533,7 @@
         "price_NVwdWV": {
           "type": "price",
           "settings": {
-            "layout": "price_first",
+            "layout": "price_second",
             "price_color": "accent-1",
             "compare_price_color": "text",
             "displayed_badge": "sale",
