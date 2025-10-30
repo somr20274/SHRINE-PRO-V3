@@ -83,3 +83,8 @@
     height: 60px;
   }
 }
+/* Supprimer la loupe sur les miniatures */
+.featured-product .product__media-item .product__media-toggle,
+.featured-product .product__media-toggle {
+  display: none !important;
+}
