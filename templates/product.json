@@ -1032,7 +1032,7 @@
         "title": "Image/Video Slider",
         "title_highlight_color": "#6d388b",
         "heading_size": "h1",
-        "color_scheme": "accent-1",
+        "color_scheme": "background-2",
         "type": "slide",
         "drag": "enabled",
         "autoplay": false,
