@@ -647,34 +647,42 @@
             "margin_bottom": 24
           }
         },
+        "payment_badges_Ly9KwR": {
+          "type": "payment_badges",
+          "settings": {
+            "enabled_payment_types": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
         "e0a0b690-50df-4ca4-acfd-ce2980696cce": {
           "type": "shipping_checkpoints",
           "settings": {
             "icon_1": "add_shopping_cart",
             "filled_icon_1": false,
             "top_text_1": "<strong>[start_date]</strong>",
-            "bottom_text_1": "Ordered",
+            "bottom_text_1": "Commandé",
             "min_days_1": 0,
             "max_days_1": 0,
             "icon_2": "local_shipping",
             "filled_icon_2": false,
             "top_text_2": "<strong>[start_date] - [end_date]</strong>",
-            "bottom_text_2": "Order Ready",
+            "bottom_text_2": "Prêt",
             "min_days_2": 1,
             "max_days_2": 2,
             "icon_3": "redeem",
             "filled_icon_3": false,
             "top_text_3": "<strong>[start_date] - [end_date]</strong>",
-            "bottom_text_3": "Delivered",
-            "min_days_3": 10,
-            "max_days_3": 12,
+            "bottom_text_3": "Livré",
+            "min_days_3": 8,
+            "max_days_3": 11,
             "icon_4": "",
             "filled_icon_4": false,
             "top_text_4": "",
             "bottom_text_4": "",
-            "date_format": "mm_dd",
-            "days_labels": "Mon, Tue, Wed, Thu, Fri, Sat, Sun",
-            "months_labels": "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+            "date_format": "dd_mm_no_dot",
+            "days_labels": "Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi, Dimanche",
+            "months_labels": "Jan, Fev, Mars, Avr, Mai, Juin, Juil, Aout, Sept, Oct, Nov, Dec",
             "color_scheme": "inverse",
             "margin_top": 24,
             "margin_bottom": 24
@@ -775,6 +783,7 @@
         "5fcc0428-e768-4cb7-bea3-eb0274198dd1",
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
         "buy_buttons",
+        "payment_badges_Ly9KwR",
         "e0a0b690-50df-4ca4-acfd-ce2980696cce",
         "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5",
         "description",
