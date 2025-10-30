@@ -1135,7 +1135,7 @@
         "stop_on_hover": false,
         "mobile_spacing": 100,
         "desktop_spacing": 100,
-        "color_scheme": "background-1",
+        "color_scheme": "custom",
         "mobile_text_size": 16,
         "desktop_text_size": 18,
         "italic_text": false,
@@ -1152,9 +1152,9 @@
         "mobile_padding_bottom": 12,
         "desktop_padding_top": 16,
         "desktop_padding_bottom": 16,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#fff8bd",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39"
+        "custom_colors_text": "#001b74"
       }
     },
     "4fc05ee5-1c30-4863-b88f-81cb6fa7c41a": {
