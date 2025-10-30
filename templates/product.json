@@ -160,10 +160,23 @@
             "title_highlight_color": "#6d388b",
             "heading_size": "h1"
           }
+        },
+        "trustpilot_stars_r6pM3C": {
+          "type": "trustpilot_stars",
+          "settings": {
+            "rating": 5,
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "label": "(xxxx Reviews)",
+            "size": 16,
+            "scroll_id": ""
+          }
         }
       },
       "block_order": [
-        "heading_QdgeNE"
+        "heading_QdgeNE",
+        "trustpilot_stars_r6pM3C"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -351,7 +364,7 @@
         "slide_height": "medium",
         "slider_visual": "dots",
         "desktop_pagination_position": "over",
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "show_text_below": true,
         "mobile_pagination_position": "under",
