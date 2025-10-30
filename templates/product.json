@@ -1100,6 +1100,63 @@
         "custom_colors_text": "#001b74"
       }
     },
+    "horizontal_ticker_dRHpDJ": {
+      "type": "horizontal-ticker",
+      "blocks": {
+        "text_Vz4g34": {
+          "type": "text",
+          "settings": {
+            "title": "Shrine Theme"
+          }
+        },
+        "text_EDQz9g": {
+          "type": "text",
+          "settings": {
+            "title": "Shrine Theme"
+          }
+        },
+        "text_UjTcjA": {
+          "type": "text",
+          "settings": {
+            "title": "Shrine Theme"
+          }
+        }
+      },
+      "block_order": [
+        "text_Vz4g34",
+        "text_EDQz9g",
+        "text_UjTcjA"
+      ],
+      "name": "Horizontal Ticker",
+      "settings": {
+        "visibility": "always-display",
+        "speed": 3,
+        "direction": "normal",
+        "stop_on_hover": false,
+        "mobile_spacing": 100,
+        "desktop_spacing": 100,
+        "color_scheme": "background-1",
+        "mobile_text_size": 16,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": true,
+        "bold_text": true,
+        "mobile_image_height": 300,
+        "desktop_image_height": 40,
+        "mobile_reviews_width": 300,
+        "desktop_reviews_width": 400,
+        "hidden_products": "",
+        "enable_specific_display": false,
+        "displayed_products": "",
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39"
+      }
+    },
     "4fc05ee5-1c30-4863-b88f-81cb6fa7c41a": {
       "type": "icons-with-content",
       "blocks": {
@@ -1293,6 +1350,7 @@
     "related-products",
     "8beb6911-28c6-482c-976a-e5421ad3e8df",
     "eba88da5-80ac-47fc-aa75-997cfe7b2e59",
+    "horizontal_ticker_dRHpDJ",
     "4fc05ee5-1c30-4863-b88f-81cb6fa7c41a",
     "55bd100e-3bbd-426c-a5cf-eed7b2a3706f",
     "b321ab88-2b59-4dba-bade-54885c874ca5"
