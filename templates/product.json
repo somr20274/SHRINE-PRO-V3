@@ -1108,25 +1108,39 @@
         "text_Vz4g34": {
           "type": "text",
           "settings": {
-            "title": "Shrine Theme"
+            "title": "Ultra-résistant"
           }
         },
         "text_EDQz9g": {
           "type": "text",
           "settings": {
-            "title": "Shrine Theme"
+            "title": "confortable"
+          }
+        },
+        "text_TQTfdV": {
+          "type": "text",
+          "settings": {
+            "title": "antidérapant"
+          }
+        },
+        "text_NTVjhk": {
+          "type": "text",
+          "settings": {
+            "title": "absorption rapide"
           }
         },
         "text_UjTcjA": {
           "type": "text",
           "settings": {
-            "title": "Shrine Theme"
+            "title": "réutilisable"
           }
         }
       },
       "block_order": [
         "text_Vz4g34",
         "text_EDQz9g",
+        "text_TQTfdV",
+        "text_NTVjhk",
         "text_UjTcjA"
       ],
       "name": "Horizontal Ticker",
