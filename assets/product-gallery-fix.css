@@ -1,6 +1,6 @@
 /* === FIX GALERIE PRODUIT SHRINE - PAGE D'ACCUEIL === */
 
-/* Conserve l'image principale */
+/* Garde l'image principale visible */
 .featured-product .product__media-wrapper > *:first-child {
   display: block !important;
   width: 100%;
@@ -26,7 +26,7 @@
 /* Miniatures */
 .featured-product .product__media-list .product__media-item,
 .featured-product .thumbnail-list__item {
-  width: calc(16.66% - 5px) !important; /* 6 miniatures par ligne sur desktop */
+  width: calc(16.66% - 5px) !important; /* 6 miniatures par ligne desktop */
   min-width: 55px;
   max-width: 80px;
   height: 70px;
@@ -60,16 +60,37 @@
   height: 100%;
   object-fit: cover;
   display: block;
+  border-radius: 6px;
 }
 
-/* Forcer affichage des images masquées (toutes les médias du produit) */
+/* Force l'affichage de tous les médias cachés */
+.featured-product [hidden],
+.featured-product .is-hidden,
 .featured-product .product__media-item[hidden],
-.featured-product .media--hidden {
+.featured-product .product__media-item[style*="display: none"] {
   display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Supprime la loupe et icônes de zoom */
+.featured-product .product__media-toggle,
+.featured-product .product__media-item button,
+.featured-product .product__media-item .media__icon,
+.featured-product .product__media-item svg {
+  display: none !important;
+  pointer-events: none !important;
+  visibility: hidden !important;
+}
+
+/* Position et visibilité globales */
+.featured-product .product__media-item {
+  position: relative !important;
+  opacity: 1 !important;
   visibility: visible !important;
 }
 
-/* --- Responsive --- */
+/* Responsive */
 @media screen and (max-width: 989px) {
   .featured-product .product__media-item {
     width: calc(20% - 5px) !important; /* 5 par ligne sur tablette */
@@ -82,9 +103,4 @@
     width: calc(25% - 5px) !important; /* 4 par ligne sur mobile */
     height: 60px;
   }
-}
-/* Supprimer la loupe sur les miniatures */
-.featured-product .product__media-item .product__media-toggle,
-.featured-product .product__media-toggle {
-  display: none !important;
 }
