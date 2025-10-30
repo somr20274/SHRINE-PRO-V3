@@ -87,58 +87,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "rich_text_3dYxhj": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_PA9trK": {
-          "type": "heading",
-          "settings": {
-            "title": "Talk about your brand",
-            "title_highlight_color": "#6D388B",
-            "heading_size": "h1"
-          }
-        },
-        "text_tHbhhq": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_8RP3hj": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_PA9trK",
-        "text_tHbhhq",
-        "button_8RP3hj"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52,
-        "custom_colors_background": "#FFFFFF",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d"
-      }
-    },
     "image_slider_mCH4wN": {
       "type": "image-slider",
       "blocks": {
@@ -228,6 +176,58 @@
         "custom_colors_text": "#121212"
       }
     },
+    "rich_text_q4VwQ4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QdgeNE": {
+          "type": "heading",
+          "settings": {
+            "title": "Talk about your brand",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h1"
+          }
+        },
+        "text_Y7qAmn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_Nk6PPN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QdgeNE",
+        "text_Y7qAmn",
+        "button_Nk6PPN"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
     "slideshow_XXQAtP": {
       "type": "slideshow",
       "blocks": {
@@ -306,56 +306,93 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "rich_text_TynUq6": {
-      "type": "rich-text",
+    "image_slider_XdCmhw": {
+      "type": "image-slider",
       "blocks": {
-        "heading_RYBahj": {
-          "type": "heading",
+        "image_slide_ckaWyD": {
+          "type": "image_slide",
           "settings": {
-            "title": "Talk about your brand",
-            "title_highlight_color": "#6D388B",
-            "heading_size": "h1"
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
           }
         },
-        "text_VEBDWY": {
-          "type": "text",
+        "image_slide_pFgPJj": {
+          "type": "image_slide",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
           }
         },
-        "button_XhhXmK": {
-          "type": "button",
+        "image_slide_NbVtGq": {
+          "type": "image_slide",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_HV4EQn": {
+          "type": "image_slide",
+          "settings": {
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
           }
         }
       },
       "block_order": [
-        "heading_RYBahj",
-        "text_VEBDWY",
-        "button_XhhXmK"
+        "image_slide_ckaWyD",
+        "image_slide_pFgPJj",
+        "image_slide_NbVtGq",
+        "image_slide_HV4EQn"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "Image/Video Slider",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "full_width": true,
+        "title": "Image/Video slider",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52,
+        "type": "slide",
+        "drag": "enabled",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "center_mode": false,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "desktop_border_radius": 0,
+        "slides_desktop": 3,
+        "per_move_desktop": 1,
+        "desktop_spacing": 28,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "mobile_full_page": false,
+        "mobile_border_radius": 0,
+        "slides_mobile": 2,
+        "per_move_mobile": 1,
+        "mobile_spacing": 12,
+        "mobile_side_padding": 0,
+        "mobile_padding_calc": true,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "sides",
+        "padding_top": 36,
+        "padding_bottom": 36,
         "custom_colors_background": "#FFFFFF",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d"
+        "custom_colors_text": "#121212"
       }
     },
     "main": {
@@ -1171,10 +1208,10 @@
   },
   "order": [
     "slideshow_tV88zb",
-    "rich_text_3dYxhj",
     "image_slider_mCH4wN",
+    "rich_text_q4VwQ4",
     "slideshow_XXQAtP",
-    "rich_text_TynUq6",
+    "image_slider_XdCmhw",
     "main",
     "related-products",
     "8beb6911-28c6-482c-976a-e5421ad3e8df",
