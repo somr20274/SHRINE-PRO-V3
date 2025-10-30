@@ -1180,7 +1180,7 @@
           "type": "heading",
           "settings": {
             "title": "La vérité sur les accidents de votre chien",
-            "title_highlight_color": "#6D388B",
+            "title_highlight_color": "#001b74",
             "heading_size": "h1"
           }
         },
@@ -1190,19 +1190,11 @@
             "text": "<p><strong>Votre chien a besoin de signaux olfactifs pour savoir où faire ses besoins.</strong><br/><br/>Les tapis jetables n'en possèdent pas. Ils sentent le plastique et les produits chimiques. Pour les 300 millions de récepteurs olfactifs de votre chien, ce n'est pas une salle de bain, mais juste un tapis bizarre posé sur le sol.<br/><br/><strong>Alors même si votre chien les utilise, vous les jetez après une seule utilisation.</strong><br/><br/>C'est le piège : des tapis rarement efficaces + un usage unique = une dépense mensuelle de 68,63 € à 85,78 €.<br/><br/>L'industrie des tapis jetables génère 1,72 milliard d'euros par an grâce aux maîtres pris au piège de ce cercle vicieux. Acheter. Espérer. Échouer. Recommencer.<br/><br/><strong>Et si un seul tapis pouvait durer toute l'année ET inciter votre chien à l'utiliser ?</strong></p>",
             "text_style": "body"
           }
-        },
-        "button_xBjd6T": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "heading_99dYwg",
-        "text_Xm8mMG",
-        "button_xBjd6T"
+        "text_Xm8mMG"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -1212,8 +1204,8 @@
         "video_autoplay": true,
         "video_loop": true,
         "height": "adapt",
-        "color_scheme": "background-1",
-        "section_color_scheme": "background-1",
+        "color_scheme": "custom",
+        "section_color_scheme": "custom",
         "full_desktop_width": false,
         "content_layout": "no-overlap",
         "desktop_media_width": 50,
@@ -1228,13 +1220,13 @@
         "mobile_padding_bottom": 16,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
-        "custom_colors_background": "#2E2A39",
+        "custom_colors_background": "#fff9f4",
         "custom_gradient_background": "",
-        "custom_colors_text": "#FFFFFF",
+        "custom_colors_text": "#001b74",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d",
-        "custom_section_colors_background": "#FFFFFF",
+        "custom_section_colors_background": "#fff9f4",
         "custom_section_gradient_background": ""
       }
     },
