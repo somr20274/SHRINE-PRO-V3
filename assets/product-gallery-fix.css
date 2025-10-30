@@ -1,41 +1,44 @@
-/* ===== MINIATURES - SECTION PRODUIT EN VEDETTE (Page d'accueil) ===== */
+/* === FIX GALERIE PRODUIT SHRINE - PAGE D'ACCUEIL === */
 
 /* Conserve l'image principale */
 .featured-product .product__media-wrapper > *:first-child {
   display: block !important;
   width: 100%;
   height: auto;
+  margin-bottom: 10px;
 }
 
-/* Force l'affichage des miniatures cachées */
+/* Affiche toutes les miniatures du produit (y compris non variantes) */
 .featured-product .product__media-list,
 .featured-product .thumbnail-list {
   display: flex !important;
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 10px;
-  margin-top: 15px;
+  gap: 6px;
+  margin-top: 8px;
   opacity: 1 !important;
   visibility: visible !important;
   height: auto !important;
   overflow: visible !important;
+  max-width: 100%;
 }
 
 /* Miniatures */
 .featured-product .product__media-list .product__media-item,
 .featured-product .thumbnail-list__item {
-  display: block !important;
-  width: calc(20% - 8px) !important; /* 5 par ligne */
-  min-width: 70px;
-  max-width: 120px;
-  height: 90px;
-  border: 2px solid #e5e5e5;
-  border-radius: 8px;
+  width: calc(16.66% - 5px) !important; /* 6 miniatures par ligne sur desktop */
+  min-width: 55px;
+  max-width: 80px;
+  height: 70px;
+  border: 1.5px solid #e5e5e5;
+  border-radius: 6px;
   overflow: hidden;
   cursor: pointer;
-  transition: all .3s ease;
+  transition: all 0.2s ease-in-out;
+  display: block !important;
   opacity: 1 !important;
   visibility: visible !important;
+  position: relative !important;
 }
 
 /* Hover */
@@ -44,13 +47,14 @@
   transform: scale(1.05);
 }
 
-/* Active */
-.featured-product .product__media-item.is-active {
+/* Miniature active */
+.featured-product .product__media-item.is-active,
+.featured-product .product__media-item[aria-current="true"] {
   border-color: #000;
-  border-width: 3px;
+  border-width: 2px;
 }
 
-/* Image à l'intérieur */
+/* Images dans miniatures */
 .featured-product .product__media-item img {
   width: 100%;
   height: 100%;
@@ -58,24 +62,24 @@
   display: block;
 }
 
-/* Corrige les médias cachés par défaut */
+/* Forcer affichage des images masquées (toutes les médias du produit) */
 .featured-product .product__media-item[hidden],
 .featured-product .media--hidden {
   display: block !important;
   visibility: visible !important;
 }
 
-/* Responsive */
-@media screen and (max-width: 768px) {
+/* --- Responsive --- */
+@media screen and (max-width: 989px) {
   .featured-product .product__media-item {
-    width: calc(33.333% - 8px) !important;
-    height: 80px;
+    width: calc(20% - 5px) !important; /* 5 par ligne sur tablette */
+    height: 65px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 749px) {
   .featured-product .product__media-item {
-    width: calc(25% - 6px) !important;
-    height: 70px;
+    width: calc(25% - 5px) !important; /* 4 par ligne sur mobile */
+    height: 60px;
   }
 }
