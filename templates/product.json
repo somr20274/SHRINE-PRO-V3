@@ -660,7 +660,7 @@
         "payment_badges_Ly9KwR": {
           "type": "payment_badges",
           "settings": {
-            "enabled_payment_types": "",
+            "enabled_payment_types": "american_express, apple_pay, klarna, master, paypal, shopify_pay, visa",
             "margin_top": 15,
             "margin_bottom": 15
           }
