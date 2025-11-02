@@ -376,6 +376,7 @@
       "blocks": {
         "video_slide_GVDnGr": {
           "type": "video_slide",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/796298a8a6194e2d8627e158efa800d2.mp4",
             "loop": true,
