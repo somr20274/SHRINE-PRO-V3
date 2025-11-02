@@ -1521,6 +1521,8 @@
         "slide_VMyDVQ": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/FB-Review-16.jpg",
+            "mobile_image": "shopify://shop_images/FB-Review-16.jpg",
             "image_overlay_opacity": 0,
             "heading": "",
             "title_highlight_color": "#6D388B",
@@ -1549,6 +1551,8 @@
         "slide_TKRqJe": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/FB-Review-20.jpg",
+            "mobile_image": "shopify://shop_images/FB-Review-20.jpg",
             "image_overlay_opacity": 0,
             "heading": "",
             "title_highlight_color": "#6D388B",
@@ -1573,17 +1577,108 @@
             "custom_colors_solid_button_text": "#ffffff",
             "custom_colors_outline_button": "#dd1d1d"
           }
+        },
+        "slide_f4kUjg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FB-Review-18.jpg",
+            "mobile_image": "shopify://shop_images/FB-Review-18.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_product": "",
+            "atc_skip_cart": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "color_scheme": "background-1",
+            "transparent_container_color": "white",
+            "text_alignment_mobile": "center",
+            "custom_colors_background": "#ffffff",
+            "custom_gradient_background": "",
+            "custom_colors_text": "#2e2a39",
+            "custom_colors_solid_button_background": "#dd1d1d",
+            "custom_colors_solid_button_text": "#ffffff",
+            "custom_colors_outline_button": "#dd1d1d"
+          }
+        },
+        "slide_eHJnWN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Trustpilot-Review-24.jpg",
+            "mobile_image": "shopify://shop_images/Trustpilot-Review-24.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_product": "",
+            "atc_skip_cart": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "color_scheme": "background-1",
+            "transparent_container_color": "white",
+            "text_alignment_mobile": "center",
+            "custom_colors_background": "#ffffff",
+            "custom_gradient_background": "",
+            "custom_colors_text": "#2e2a39",
+            "custom_colors_solid_button_background": "#dd1d1d",
+            "custom_colors_solid_button_text": "#ffffff",
+            "custom_colors_outline_button": "#dd1d1d"
+          }
+        },
+        "slide_RVnWF3": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_product": "",
+            "atc_skip_cart": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "color_scheme": "background-1",
+            "transparent_container_color": "white",
+            "text_alignment_mobile": "center",
+            "custom_colors_background": "#ffffff",
+            "custom_gradient_background": "",
+            "custom_colors_text": "#2e2a39",
+            "custom_colors_solid_button_background": "#dd1d1d",
+            "custom_colors_solid_button_text": "#ffffff",
+            "custom_colors_outline_button": "#dd1d1d"
+          }
         }
       },
       "block_order": [
         "slide_VMyDVQ",
-        "slide_TKRqJe"
+        "slide_TKRqJe",
+        "slide_f4kUjg",
+        "slide_eHJnWN",
+        "slide_RVnWF3"
       ],
       "name": "t:sections.slideshow.presets.name",
       "settings": {
         "visibility": "always-display",
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "adapt_image",
         "slider_visual": "dots",
         "desktop_pagination_position": "over",
         "auto_rotate": false,
