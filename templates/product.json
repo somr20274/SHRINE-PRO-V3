@@ -1455,7 +1455,7 @@
         "display_id": false,
         "visibility": "always-display",
         "title": "TapisZéroOdeur vs Tapis Jetables",
-        "title_highlight_color": "#001b74",
+        "title_highlight_color": "#6D388B",
         "heading_size": "h1",
         "text": "",
         "button_label": "",
@@ -1494,7 +1494,7 @@
         "x_color": "#121212",
         "x_bg_color": "#DBDBDB",
         "opposite_icon_colors": "original",
-        "highlighted_color_scheme": "custom",
+        "highlighted_color_scheme": "accent-1",
         "highlighted_separator_opacity": 0,
         "highlighted_overlay_opacity": 0,
         "other_cells_color_scheme": "background-1",
@@ -1505,14 +1505,14 @@
         "padding_bottom": 36,
         "custom_colors_background": "#FFFFFF",
         "custom_gradient_background": "",
-        "custom_colors_text": "#001b74",
+        "custom_colors_text": "#2E2A39",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d",
         "custom_colors_highlighted_background": "#2E2A39",
-        "custom_colors_highlighted_text": "#001b74",
+        "custom_colors_highlighted_text": "#FFFFFF",
         "custom_colors_others_background": "#FFFFFF",
-        "custom_colors_others_text": "#001b74"
+        "custom_colors_others_text": "#2E2A39"
       }
     },
     "4fc05ee5-1c30-4863-b88f-81cb6fa7c41a": {
