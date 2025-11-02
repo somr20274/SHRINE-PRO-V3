@@ -1341,7 +1341,7 @@
         "text_jmN9y8": {
           "type": "text",
           "settings": {
-            "text": "<p><br/>Votre chien l'adopte instantanément. Vos sols restent impeccables. Zéro odeur dans votre maison. Un seul achat. Tous vos problèmes résolus.</p>"
+            "text": "<p>Votre chien l'adopte instantanément. Vos sols restent impeccables. Zéro odeur dans votre maison. Un seul achat. Tous vos problèmes résolus.</p>"
           }
         }
       },
@@ -1357,8 +1357,8 @@
         "content_alignment": "center",
         "full_width": true,
         "color_scheme": "custom",
-        "padding_top": 16,
-        "padding_bottom": 52,
+        "padding_top": 0,
+        "padding_bottom": 8,
         "custom_colors_background": "#fff8bd",
         "custom_gradient_background": "",
         "custom_colors_text": "#001b74",
