@@ -1521,14 +1521,21 @@
         "heading_FdUrGc": {
           "type": "heading",
           "settings": {
-            "title": "Des milliers de clients conquis à travers le monde  🌍",
+            "title": "Des milliers de clients conquis à travers le monde",
             "title_highlight_color": "#6D388B",
             "heading_size": "h1"
+          }
+        },
+        "text_zp3iz8": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><em>Utilisez nos tapis pendant 90 jours complets. Lavez-le. Testez-le. Laissez votre chien l’utiliser des centaines de fois.</em></h5><p>Si vous ne constatez pas de résultats immédiats — si votre chien ne l’adopte pas naturellement, si les accidents ne disparaissent pas, ou si vous n’êtes tout simplement pas <strong>entièrement satisfait(e)</strong> — nous vous <strong>remboursons intégralement</strong>.</p><p>Aucune condition. Aucun formulaire. Aucune question.</p><p>Il vous suffit de nous envoyer un e-mail, de nous le retourner (même utilisé et lavé), et nous traiterons votre <strong>remboursement complet immédiatement</strong>.</p><p>Pourquoi pouvons-nous offrir une telle garantie ?</p><p>Parce que sur plus de <strong>37 000 commandes</strong>, <strong>moins de 0,5 %</strong> ont été retournées. PuppyPad fonctionne tout simplement.</p><p>Mais nous voulons que vous soyez <strong>totalement confiant(e)</strong>. Vous avez déjà perdu assez d’argent dans des solutions inefficaces — cette fois, c’est différent.</p><p>Vous n’avez <strong>rien à perdre</strong>, sauf une maison propre et sans pipis 🐶✨</p>"
           }
         }
       },
       "block_order": [
-        "heading_FdUrGc"
+        "heading_FdUrGc",
+        "text_zp3iz8"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -1537,190 +1544,152 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "full_width": true,
-        "color_scheme": "background-1",
+        "color_scheme": "custom",
         "padding_top": 40,
         "padding_bottom": 52,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#f2ffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
+        "custom_colors_text": "#001b74",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d"
       }
     },
-    "slideshow_VXGPUq": {
-      "type": "slideshow",
+    "image_slider_kQtcwP": {
+      "type": "image-slider",
       "blocks": {
-        "slide_VMyDVQ": {
-          "type": "slide",
+        "image_slide_j8WzYF": {
+          "type": "image_slide",
           "settings": {
             "image": "shopify://shop_images/FB-Review-16.jpg",
-            "mobile_image": "shopify://shop_images/FB-Review-16.jpg",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "title_highlight_color": "#6D388B",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
             "link": "",
-            "button_style_secondary": false,
-            "atc_button_label": "",
-            "atc_product": "",
-            "atc_skip_cart": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "color_scheme": "background-1",
-            "transparent_container_color": "white",
-            "text_alignment_mobile": "center",
-            "custom_colors_background": "#FFFFFF",
-            "custom_gradient_background": "",
-            "custom_colors_text": "#2E2A39",
-            "custom_colors_solid_button_background": "#dd1d1d",
-            "custom_colors_solid_button_text": "#ffffff",
-            "custom_colors_outline_button": "#dd1d1d"
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
           }
         },
-        "slide_TKRqJe": {
-          "type": "slide",
+        "image_slide_BMJeJw": {
+          "type": "image_slide",
           "settings": {
             "image": "shopify://shop_images/FB-Review-20.jpg",
-            "mobile_image": "shopify://shop_images/FB-Review-20.jpg",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "title_highlight_color": "#6D388B",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
             "link": "",
-            "button_style_secondary": false,
-            "atc_button_label": "",
-            "atc_product": "",
-            "atc_skip_cart": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "color_scheme": "background-1",
-            "transparent_container_color": "white",
-            "text_alignment_mobile": "center",
-            "custom_colors_background": "#FFFFFF",
-            "custom_gradient_background": "",
-            "custom_colors_text": "#2E2A39",
-            "custom_colors_solid_button_background": "#dd1d1d",
-            "custom_colors_solid_button_text": "#ffffff",
-            "custom_colors_outline_button": "#dd1d1d"
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
           }
         },
-        "slide_f4kUjg": {
-          "type": "slide",
+        "image_slide_cQJMt8": {
+          "type": "image_slide",
           "settings": {
             "image": "shopify://shop_images/FB-Review-18.jpg",
-            "mobile_image": "shopify://shop_images/FB-Review-18.jpg",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "title_highlight_color": "#6d388b",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
             "link": "",
-            "button_style_secondary": false,
-            "atc_button_label": "",
-            "atc_product": "",
-            "atc_skip_cart": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "color_scheme": "background-1",
-            "transparent_container_color": "white",
-            "text_alignment_mobile": "center",
-            "custom_colors_background": "#ffffff",
-            "custom_gradient_background": "",
-            "custom_colors_text": "#2e2a39",
-            "custom_colors_solid_button_background": "#dd1d1d",
-            "custom_colors_solid_button_text": "#ffffff",
-            "custom_colors_outline_button": "#dd1d1d"
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
           }
         },
-        "slide_eHJnWN": {
-          "type": "slide",
+        "image_slide_9rMiUe": {
+          "type": "image_slide",
           "settings": {
             "image": "shopify://shop_images/Trustpilot-Review-24.jpg",
-            "mobile_image": "shopify://shop_images/Trustpilot-Review-24.jpg",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "title_highlight_color": "#6d388b",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
             "link": "",
-            "button_style_secondary": false,
-            "atc_button_label": "",
-            "atc_product": "",
-            "atc_skip_cart": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "color_scheme": "background-1",
-            "transparent_container_color": "white",
-            "text_alignment_mobile": "center",
-            "custom_colors_background": "#ffffff",
-            "custom_gradient_background": "",
-            "custom_colors_text": "#2e2a39",
-            "custom_colors_solid_button_background": "#dd1d1d",
-            "custom_colors_solid_button_text": "#ffffff",
-            "custom_colors_outline_button": "#dd1d1d"
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
           }
         },
-        "slide_RVnWF3": {
-          "type": "slide",
+        "image_slide_LUGhAd": {
+          "type": "image_slide",
           "settings": {
             "image": "shopify://shop_images/FB-Review-19.jpg",
-            "mobile_image": "shopify://shop_images/FB-Review-19.jpg",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "title_highlight_color": "#6d388b",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
             "link": "",
-            "button_style_secondary": false,
-            "atc_button_label": "",
-            "atc_product": "",
-            "atc_skip_cart": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "color_scheme": "background-1",
-            "transparent_container_color": "white",
-            "text_alignment_mobile": "center",
-            "custom_colors_background": "#ffffff",
-            "custom_gradient_background": "",
-            "custom_colors_text": "#2e2a39",
-            "custom_colors_solid_button_background": "#dd1d1d",
-            "custom_colors_solid_button_text": "#ffffff",
-            "custom_colors_outline_button": "#dd1d1d"
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_Xkrkhc": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/Trustpilot-Review-10.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_t9Np3X": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/FB-Review-19_747901b6-97c1-4753-b476-2743d15866b6.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_bAVBMm": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/Trustpilot-Review-8.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
           }
         }
       },
       "block_order": [
-        "slide_VMyDVQ",
-        "slide_TKRqJe",
-        "slide_f4kUjg",
-        "slide_eHJnWN",
-        "slide_RVnWF3"
+        "image_slide_j8WzYF",
+        "image_slide_BMJeJw",
+        "image_slide_cQJMt8",
+        "image_slide_9rMiUe",
+        "image_slide_LUGhAd",
+        "image_slide_Xkrkhc",
+        "image_slide_t9Np3X",
+        "image_slide_bAVBMm"
       ],
-      "name": "t:sections.slideshow.presets.name",
+      "name": "Image/Video Slider",
       "settings": {
+        "display_id": false,
         "visibility": "always-display",
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "dots",
-        "desktop_pagination_position": "over",
-        "auto_rotate": true,
-        "change_slides_speed": 3,
-        "show_text_below": false,
-        "mobile_pagination_position": "over",
-        "accessibility_info": ""
+        "title": "",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "color_scheme": "custom",
+        "type": "slide",
+        "drag": "enabled",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "center_mode": false,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "desktop_border_radius": 0,
+        "slides_desktop": 3,
+        "per_move_desktop": 1,
+        "desktop_spacing": 28,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "hidden",
+        "mobile_full_page": true,
+        "mobile_border_radius": 0,
+        "slides_mobile": 1,
+        "per_move_mobile": 1,
+        "mobile_spacing": 12,
+        "mobile_side_padding": 0,
+        "mobile_padding_calc": true,
+        "mobile_adaptive_height": true,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "sides",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#f2ffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
       }
     },
     "55bd100e-3bbd-426c-a5cf-eed7b2a3706f": {
@@ -1836,7 +1805,7 @@
     "rich_text_kJacrY",
     "comparison_table_BXR4MD",
     "rich_text_kRDFy3",
-    "slideshow_VXGPUq",
+    "image_slider_kQtcwP",
     "55bd100e-3bbd-426c-a5cf-eed7b2a3706f",
     "b321ab88-2b59-4dba-bade-54885c874ca5"
   ]
