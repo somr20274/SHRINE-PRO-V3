@@ -1708,50 +1708,50 @@
         "collapsible_row_nywUGP": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Le Tapis Zéro odeurs est-il vraiment résistant aux mâchouillages ?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "",
+            "row_content": "<p>Oui ! Notre tapis est fabriqué avec un tissu indéchirable de qualité militaire. Nous l'avons testé face aux mâcheurs les plus acharnés. Bien qu'aucun matériau ne soit indestructible à 100 %, nos tapis sont conçus pour résister aux mâchouillages, aux déchirements et aux creusements, contrairement aux tapis jetables fragiles.</p>",
             "page": ""
           }
         },
-        "collapsible_row_EyAKPG": {
+        "collapsible_row_jFaABD": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_box",
+            "heading": "Comment laver le tapis ?",
+            "icon": "",
             "filled_icon": false,
-            "row_content": "",
+            "row_content": "<p>C’est très simple ! Il suffit de le mettre dans la machine à laver, en cycle normal, avec une feuille de lessive. Vous pouvez ensuite le sécher au sèche-linge à basse température ou le faire sécher à l’air libre. Le tapis est conçu pour résister à plus de 300 lavages, tout en conservant son pouvoir absorbant et ses propriétés anti-odeurs.</p>",
             "page": ""
           }
         },
-        "collapsible_row_3pNAQe": {
+        "collapsible_row_NaFy7A": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_box",
+            "heading": "Ma maison sentira-t-elle l'urine de chien ?",
+            "icon": "",
             "filled_icon": false,
-            "row_content": "",
+            "row_content": "<p>Absolument pas. Le Tapis Zéro odeurs est doté d'un système à 4 couches avec un noyau antimicrobien qui capture et élimine les odeurs au contact. Son matériau ultra-absorbant retient instantanément le liquide, pour une maison fraîche et propre entre deux lavages.</p>",
             "page": ""
           }
         },
-        "collapsible_row_GcCWVQ": {
+        "collapsible_row_DYQpmn": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_box",
+            "heading": "De combien de tapis ai-je réellement besoin ?",
+            "icon": "",
             "filled_icon": false,
-            "row_content": "",
+            "row_content": "<p>Nous vous recommandons vivement notre offre « 3 achetés, 3 offerts ». Vous disposez ainsi d'un nombre suffisant de tapis pour une rotation optimale et de multiples options d'installation. Vous aurez toujours des tapis propres à disposition pendant que d'autres sont utilisés ou au lavage. </p><p>De nombreux clients les placent dans différentes pièces (chambre, salon, près de la porte) pour que leur chien y ait toujours facilement accès. Avoir plusieurs tapis signifie aussi moins de lessives et une plus grande tranquillité d'esprit : vous n'aurez plus jamais à attendre la fin du cycle de lavage lorsque votre chien a besoin de faire ses besoins.</p>",
             "page": ""
           }
         },
-        "collapsible_row_B9xHEf": {
+        "collapsible_row_djim6w": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_box",
+            "heading": "Et si mon chien ne l'utilise pas ?",
+            "icon": "",
             "filled_icon": false,
-            "row_content": "",
+            "row_content": "<p>Nous avons tellement confiance en notre technologie aux phéromones que nous offrons une garantie satisfait ou remboursé de 90 jours. Si votre chien n'utilise pas immédiatement le Tapis Zéro odeurs, ou si vous n'êtes pas entièrement satisfait pour quelque raison que ce soit, il vous suffit de nous le renvoyer pour obtenir un remboursement intégral. Sans aucune question.</p>",
             "page": ""
           }
         }
@@ -1759,10 +1759,10 @@
       "block_order": [
         "collapsible_row_Mnwwet",
         "collapsible_row_nywUGP",
-        "collapsible_row_EyAKPG",
-        "collapsible_row_3pNAQe",
-        "collapsible_row_GcCWVQ",
-        "collapsible_row_B9xHEf"
+        "collapsible_row_jFaABD",
+        "collapsible_row_NaFy7A",
+        "collapsible_row_DYQpmn",
+        "collapsible_row_djim6w"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
