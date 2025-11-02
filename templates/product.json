@@ -1692,6 +1692,107 @@
         "custom_colors_text": "#121212"
       }
     },
+    "collapsible_content_VeaTAJ": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_Mnwwet": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment fonctionne la technologie des phéromones ?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Nos tapis sont imprégnés d’une phéromone spécialement conçue qui imite les signaux olfactifs naturels utilisés par les chiens pour marquer leur territoire. Cette odeur est indétectable pour les humains, mais irrésistible pour les chiens, les incitant naturellement à utiliser le tapis comme lieu de défécation, sans aucun dressage.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_nywUGP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_EyAKPG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_box",
+            "filled_icon": false,
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_3pNAQe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_box",
+            "filled_icon": false,
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_GcCWVQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_box",
+            "filled_icon": false,
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_B9xHEf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_box",
+            "filled_icon": false,
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_Mnwwet",
+        "collapsible_row_nywUGP",
+        "collapsible_row_EyAKPG",
+        "collapsible_row_3pNAQe",
+        "collapsible_row_GcCWVQ",
+        "collapsible_row_B9xHEf"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "caption": "",
+        "title": "FAQ",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "video_muted_autoplay": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "row_heading_size": "medium",
+        "collapse_icon": "carret",
+        "display_top_border": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_contaner_colors_background": "#FFFFFF",
+        "custom_container_gradient_background": "",
+        "custom_contaner_colors_text": "#2E2A39"
+      }
+    },
     "b321ab88-2b59-4dba-bade-54885c874ca5": {
       "type": "section-divider",
       "settings": {
@@ -1726,6 +1827,7 @@
     "comparison_table_BXR4MD",
     "rich_text_kRDFy3",
     "image_slider_kQtcwP",
+    "collapsible_content_VeaTAJ",
     "b321ab88-2b59-4dba-bade-54885c874ca5"
   ]
 }
