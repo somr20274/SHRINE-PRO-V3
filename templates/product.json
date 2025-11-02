@@ -1373,7 +1373,7 @@
         "row_DrCwUi": {
           "type": "row",
           "settings": {
-            "benefit": "<strong>Benefit</strong>",
+            "benefit": "<strong>Dressage requis</strong>",
             "us": true,
             "others": false,
             "others_2": false,
@@ -1393,7 +1393,7 @@
         "row_8hBXmi": {
           "type": "row",
           "settings": {
-            "benefit": "<strong>Benefit</strong>",
+            "benefit": "<strong>Protection fuites</strong>",
             "us": true,
             "others": false,
             "others_2": false,
@@ -1403,7 +1403,7 @@
         "row_rjF8QA": {
           "type": "row",
           "settings": {
-            "benefit": "<strong>Benefit</strong>",
+            "benefit": "<strong>Contrôle odeurs</strong>",
             "us": true,
             "others": false,
             "others_2": false,
@@ -1413,7 +1413,7 @@
         "row_4jzeFg": {
           "type": "row",
           "settings": {
-            "benefit": "<strong>Benefit</strong>",
+            "benefit": "<strong>Coût mensuel</strong>",
             "us": true,
             "others": false,
             "others_2": false,
@@ -1423,7 +1423,17 @@
         "row_L9aACw": {
           "type": "row",
           "settings": {
-            "benefit": "<strong>Benefit</strong>",
+            "benefit": "<strong>Durée de vie</strong>",
+            "us": true,
+            "others": false,
+            "others_2": false,
+            "others_3": false
+          }
+        },
+        "row_FGCmAH": {
+          "type": "row",
+          "settings": {
+            "benefit": "<strong>Taux de réussite </strong>",
             "us": true,
             "others": false,
             "others_2": false,
@@ -1437,7 +1447,8 @@
         "row_8hBXmi",
         "row_rjF8QA",
         "row_4jzeFg",
-        "row_L9aACw"
+        "row_L9aACw",
+        "row_FGCmAH"
       ],
       "name": "Comparison table",
       "settings": {
@@ -1458,13 +1469,13 @@
         "color_scheme": "background-1",
         "layout": "table_second",
         "style": "classic",
-        "corner_radius": 20,
+        "corner_radius": 8,
         "number_of_competitors": 1,
-        "us_label": "[shop_name]",
+        "us_label": "Tapis Zéro odeurs",
         "us_label_size": 18,
         "logo_width": 90,
         "mobile_logo_width": 60,
-        "others_label": "Others",
+        "others_label": "Autres tapis jetables",
         "others_label_size": 18,
         "others_logo_width": 90,
         "others_mobile_logo_width": 60,
@@ -1479,7 +1490,7 @@
         "checkmark_style": "regular",
         "checkmark_color": "#53AF01",
         "checkmark_bg_color": "#53AF01",
-        "x_style": "regular",
+        "x_style": "solid",
         "x_color": "#121212",
         "x_bg_color": "#DBDBDB",
         "opposite_icon_colors": "original",
