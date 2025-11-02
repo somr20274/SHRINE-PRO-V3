@@ -756,7 +756,7 @@
             "autoplay": false,
             "autoplay_speed": 5,
             "display_arrows": false,
-            "display_dots": true,
+            "display_dots": false,
             "author_1": "<em>Author</em> [stars]",
             "image_1": "shopify://shop_images/depositphotos_208954726-stock-photo-man-his-dog-playing-outdoor.jpg",
             "text_1": "<p>Share positive thoughts and feedback from your customer.</p>",
