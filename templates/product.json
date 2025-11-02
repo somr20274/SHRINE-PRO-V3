@@ -1230,6 +1230,63 @@
         "custom_section_gradient_background": ""
       }
     },
+    "image_with_text_86zWyG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ntj7fd": {
+          "type": "heading",
+          "settings": {
+            "title": "Le seul tapis qui attire naturellement les chiens",
+            "title_highlight_color": "#001b74",
+            "heading_size": "h1"
+          }
+        },
+        "text_LDmj7m": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Le Tapis zéro odeurs n'est pas un simple tapis d'apprentissage de la propreté. Il est conçu pour remédier à tous les problèmes des tapis jetables.<br/><br/><strong>Technologie aux phéromones</strong> : Nos phéromones brevetées stimulent l'instinct naturel de votre chien à faire ses besoins ici. Il le reconnaît instantanément comme son endroit préféré.<br/><br/><strong>Résistance à toute épreuve </strong>: Indéchirable, indestructible et incassable, même pour les chiens les plus acharnés.<br/><br/><strong>Protection anti-fuites 4 couches</strong> : Absorbe 10 fois plus que les tapis jetables. Vos sols restent impeccables.<br/><br/><strong>Technologie antimicrobienne</strong> : Élimine les odeurs à la source. Fraîcheur garantie entre les lavages.<br/><br/><strong>Plus de 300 lavages </strong>: Un seul tapis remplace mille tapis jetables. Lavable en machine. Durée de vie supérieure à un an.<br/><br/><strong>Base antidérapante</strong> : Adhérence optimale pour protéger les articulations de votre chien des glissades et des chutes. Maintien parfait sur tous les types de sols.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ntj7fd",
+        "text_LDmj7m"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/the-solution.jpg",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "custom",
+        "section_color_scheme": "custom",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 50,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "center",
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#f2ffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#001b74",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#f2ffff",
+        "custom_section_gradient_background": ""
+      }
+    },
     "4fc05ee5-1c30-4863-b88f-81cb6fa7c41a": {
       "type": "icons-with-content",
       "blocks": {
@@ -1425,6 +1482,7 @@
     "eba88da5-80ac-47fc-aa75-997cfe7b2e59",
     "horizontal_ticker_dRHpDJ",
     "image_with_text_tn9K4h",
+    "image_with_text_86zWyG",
     "4fc05ee5-1c30-4863-b88f-81cb6fa7c41a",
     "55bd100e-3bbd-426c-a5cf-eed7b2a3706f",
     "b321ab88-2b59-4dba-bade-54885c874ca5"
