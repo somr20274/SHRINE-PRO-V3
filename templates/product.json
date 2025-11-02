@@ -1287,6 +1287,157 @@
         "custom_section_gradient_background": ""
       }
     },
+    "rich_text_HfDaGg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8P4GEh": {
+          "type": "heading",
+          "settings": {
+            "title": "Les tapis jetables ? Un cauchemar sans fin",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h2"
+          }
+        },
+        "text_7Fqaxh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ils se déchirent en secondes. Ils fuient sur votre parquet. Ils empestent l'urine. Votre chien les ignore. Et vous en rachetez encore... et encore.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8P4GEh",
+        "text_7Fqaxh"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "custom",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#fff8bd",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#001b74",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "rich_text_kJacrY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CJYWpq": {
+          "type": "heading",
+          "settings": {
+            "title": "Le TapisZéroOdeur change tout.",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h2"
+          }
+        },
+        "text_jmN9y8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Votre chien l'adopte instantanément. Vos sols restent impeccables. Zéro odeur dans votre maison. Un seul achat. Tous vos problèmes résolus.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CJYWpq",
+        "text_jmN9y8"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "custom",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#fff8bd",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#001b74",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "horizontal_ticker_gn7Wei": {
+      "type": "horizontal-ticker",
+      "blocks": {
+        "text_rBXq6j": {
+          "type": "text",
+          "settings": {
+            "title": "Ultra-résistant"
+          }
+        },
+        "text_cxFXeL": {
+          "type": "text",
+          "settings": {
+            "title": "confortable"
+          }
+        },
+        "text_Wyzc4D": {
+          "type": "text",
+          "settings": {
+            "title": "antidérapant"
+          }
+        },
+        "text_qabNYV": {
+          "type": "text",
+          "settings": {
+            "title": "absorption rapide"
+          }
+        },
+        "text_yKFd6f": {
+          "type": "text",
+          "settings": {
+            "title": "réutilisable"
+          }
+        }
+      },
+      "block_order": [
+        "text_rBXq6j",
+        "text_cxFXeL",
+        "text_Wyzc4D",
+        "text_qabNYV",
+        "text_yKFd6f"
+      ],
+      "name": "Horizontal Ticker",
+      "settings": {
+        "visibility": "desktop-hidden",
+        "speed": 1,
+        "direction": "normal",
+        "stop_on_hover": false,
+        "mobile_spacing": 100,
+        "desktop_spacing": 100,
+        "color_scheme": "custom",
+        "mobile_text_size": 16,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": true,
+        "bold_text": true,
+        "mobile_image_height": 600,
+        "desktop_image_height": 40,
+        "mobile_reviews_width": 300,
+        "desktop_reviews_width": 401,
+        "hidden_products": "",
+        "enable_specific_display": false,
+        "displayed_products": "",
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16,
+        "custom_colors_background": "#fff8bd",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#001b74"
+      }
+    },
     "4fc05ee5-1c30-4863-b88f-81cb6fa7c41a": {
       "type": "icons-with-content",
       "blocks": {
@@ -1483,6 +1634,9 @@
     "horizontal_ticker_dRHpDJ",
     "image_with_text_tn9K4h",
     "image_with_text_86zWyG",
+    "rich_text_HfDaGg",
+    "rich_text_kJacrY",
+    "horizontal_ticker_gn7Wei",
     "4fc05ee5-1c30-4863-b88f-81cb6fa7c41a",
     "55bd100e-3bbd-426c-a5cf-eed7b2a3706f",
     "b321ab88-2b59-4dba-bade-54885c874ca5"
