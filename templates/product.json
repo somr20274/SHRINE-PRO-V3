@@ -168,7 +168,7 @@
             "star_color": "#00b67a",
             "bg_star_color": "#c8c8c8",
             "star_symbol_color": "#ffffff",
-            "label": "(xxxx Reviews)",
+            "label": "+10 000 clients satisfaits",
             "size": 16,
             "scroll_id": ""
           }
@@ -491,7 +491,7 @@
             "star_color": "#00b67a",
             "bg_star_color": "#c8c8c8",
             "star_symbol_color": "#ffffff",
-            "label": "(xxxx Reviews)",
+            "label": "+10 000 clients satisfaits",
             "size": 16,
             "alignment": "flex-start",
             "scroll_id": "",
