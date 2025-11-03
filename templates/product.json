@@ -1295,7 +1295,7 @@
           "type": "heading",
           "settings": {
             "title": "Les tapis jetables ? Un cauchemar sans fin",
-            "title_highlight_color": "#6D388B",
+            "title_highlight_color": "#6d388b",
             "heading_size": "h2"
           }
         },
@@ -1335,7 +1335,7 @@
           "type": "heading",
           "settings": {
             "title": "Le TapisZéroOdeur change tout.",
-            "title_highlight_color": "#6D388B",
+            "title_highlight_color": "#6d388b",
             "heading_size": "h2"
           }
         },
@@ -1456,7 +1456,7 @@
         "display_id": false,
         "visibility": "always-display",
         "title": "TapisZéroOdeur vs Tapis Jetables",
-        "title_highlight_color": "#6D388B",
+        "title_highlight_color": "#6d388b",
         "heading_size": "h1",
         "text": "",
         "button_label": "",
@@ -1489,11 +1489,11 @@
         "others_3_logo_width": 90,
         "others_3_mobile_logo_width": 60,
         "checkmark_style": "regular",
-        "checkmark_color": "#53AF01",
-        "checkmark_bg_color": "#53AF01",
+        "checkmark_color": "#53af01",
+        "checkmark_bg_color": "#53af01",
         "x_style": "solid",
         "x_color": "#121212",
-        "x_bg_color": "#DBDBDB",
+        "x_bg_color": "#dbdbdb",
         "opposite_icon_colors": "original",
         "highlighted_color_scheme": "accent-1",
         "highlighted_separator_opacity": 0,
@@ -1504,16 +1504,16 @@
         "minimalistic_border_opacity": 16,
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
+        "custom_colors_text": "#2e2a39",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d",
-        "custom_colors_highlighted_background": "#2E2A39",
-        "custom_colors_highlighted_text": "#FFFFFF",
-        "custom_colors_others_background": "#FFFFFF",
-        "custom_colors_others_text": "#2E2A39"
+        "custom_colors_highlighted_background": "#2e2a39",
+        "custom_colors_highlighted_text": "#ffffff",
+        "custom_colors_others_background": "#ffffff",
+        "custom_colors_others_text": "#2e2a39"
       }
     },
     "rich_text_kRDFy3": {
@@ -1523,7 +1523,7 @@
           "type": "heading",
           "settings": {
             "title": "Des milliers de clients conquis à travers le monde",
-            "title_highlight_color": "#6D388B",
+            "title_highlight_color": "#6d388b",
             "heading_size": "h1"
           }
         },
@@ -1655,7 +1655,7 @@
         "display_id": false,
         "visibility": "always-display",
         "title": "",
-        "title_highlight_color": "#6D388B",
+        "title_highlight_color": "#6d388b",
         "heading_size": "h1",
         "color_scheme": "custom",
         "type": "slide",
@@ -1771,7 +1771,7 @@
         "visibility": "always-display",
         "caption": "",
         "title": "FAQ",
-        "title_highlight_color": "#6D388B",
+        "title_highlight_color": "#6d388b",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
@@ -1786,12 +1786,12 @@
         "display_top_border": true,
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
-        "custom_contaner_colors_background": "#FFFFFF",
+        "custom_colors_text": "#2e2a39",
+        "custom_contaner_colors_background": "#ffffff",
         "custom_container_gradient_background": "",
-        "custom_contaner_colors_text": "#2E2A39"
+        "custom_contaner_colors_text": "#2e2a39"
       }
     },
     "b321ab88-2b59-4dba-bade-54885c874ca5": {
@@ -1807,6 +1807,27 @@
         "custom_background_color": "#ffffff",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "17621622049f75638c": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_FVEXdJ": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_FVEXdJ"
+      ],
+      "settings": {
+        "display_id": false,
+        "include_margins": true
       }
     }
   },
@@ -1829,6 +1850,7 @@
     "rich_text_kRDFy3",
     "image_slider_kQtcwP",
     "collapsible_content_VeaTAJ",
-    "b321ab88-2b59-4dba-bade-54885c874ca5"
+    "b321ab88-2b59-4dba-bade-54885c874ca5",
+    "17621622049f75638c"
   ]
 }
