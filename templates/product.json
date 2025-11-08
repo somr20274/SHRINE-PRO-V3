@@ -706,7 +706,7 @@
           "settings": {
             "function": "add_to_cart",
             "display_when": "after_scroll",
-            "button_label": "Add to cart",
+            "button_label": "Acheter",
             "enable_custom_btn_color": false,
             "custom_btn_color": "#dd1d1d",
             "color_scheme": "background-1",
